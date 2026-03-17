@@ -58,31 +58,14 @@ and cell-type-specific expression.
 
 ## The main biological findings
 
-**RSPO3** is the strongest result. The GWAS lead SNP rs72959041 is 
-simultaneously the top eQTL SNP in adipose subcutaneous tissue, sits in 
-an active enhancer (open chromatin + strong H3K27ac), and is expressed 
-preferentially in preadipocytes. The A allele increases RSPO3 expression, 
-amplifying WNT signalling in adipose progenitor cells — a plausible 
-mechanism for altered fat depot development.
+**RSPO3** is the strongest result. The lead GWAS SNP rs72959041 turned out to be the same SNP driving expression changes in subcutaneous adipose tissue, and it sits right inside an active enhancer with open chromatin and strong H3K27ac signal. In single-cell data, RSPO3 expression is highest in preadipocytes rather than mature fat cells, which makes biological sense given its role in WNT signalling. Carrying the A allele appears to increase RSPO3 expression in adipose progenitor cells, which could plausibly alter how fat depots develop and expand.
 
-**CCDC92** shows equally clean colocalisation. The same SNP (rs7133378) 
-drives both the GWAS signal and a strong subcutaneous adipose eQTL 
-(p=1.34×10⁻²⁰). Single-cell data confirms expression across the mature 
-adipocyte lineage, consistent with its role in adipogenesis.
+**CCDC92** shows equally clean colocalisation. The same SNP rs7133378 shows up as both the GWAS lead and the top eQTL in subcutaneous adipose (p=1.34×10⁻²⁰), and single-cell data shows expression spread across the mature adipocyte lineage, consistent with its known involvement in adipogenesis and lipid metabolism.
 
 **VEGFA** illustrates the cell-type specificity problem in bulk data. 
-Despite a strong GWAS signal (p=9×10⁻¹⁴⁰), the eQTL is weak and 
-distant from the GWAS SNP. Single-cell data reveals VEGFA is an 
-endothelial cell gene — endothelial cells comprise ~2% of bulk adipose 
-tissue, diluting any eQTL signal beyond detection in GTEx.
-
-**RFLNA** is the unexpected finding. The GWAS SNP colocalises with a 
-nerve tibial eQTL, not adipose. Single-cell data shows RFLNA is 
-expressed predominantly in mesothelial cells — the lining of the 
-omental fat pad — which are absent from subcutaneous adipose. This 
-suggests a visceral-specific regulatory mechanism operating through 
-the omental mesothelium rather than adipocytes directly.
-
+ The GWAS signal is extremely strong (p=9×10⁻¹⁴⁰) but the eQTL in adipose is weak and the top eQTL SNP sits over 600kb away from the GWAS lead. The single-cell data explained why. VEGFA is predominantly expressed in endothelial cells, which make up only around 2% of bulk adipose tissue. That small fraction is simply not enough to produce a detectable eQTL signal in bulk GTEx data, which averages across all cell types together.
+ 
+**RFLNA** is the unexpected finding. Rather than colocalising with an adipose eQTL, the GWAS SNP matched a nerve tibial signal. When looking at single-cell data, RFLNA expression turned out to be concentrated in mesothelial cells, which line the omental fat pad. These cells are present in visceral but not subcutaneous adipose, which neatly explains why any regulatory signal at this locus would appear visceral-specific and why bulk adipose eQTL analysis struggled to capture it.
 ---
 
 ## Repository contents
