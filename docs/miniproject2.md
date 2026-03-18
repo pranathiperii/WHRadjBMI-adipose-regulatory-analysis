@@ -68,6 +68,7 @@ plays a well-established role in adipogenesis and fat depot development, so
 a variant that increases RSPO3 expression in subcutaneous adipose 
 preadipocytes is a biologically plausible explanation for altered fat 
 distribution.
+![RSPO3 GTEx eQTL violin plot](rspo3.jpg)
 
 | Field | Value |
 |---|---|
@@ -105,6 +106,8 @@ The eQTL here is subcutaneous rather than visceral, which contrasts with
 some of the other loci where visceral adipose carried the signal. 
 Subcutaneous fat makes up the larger fraction of total body fat and is 
 arguably more relevant to a whole-body measure like WHR.
+![CCDC92 GTEx eQTL violin plot](ccd92_adipose.png)
+![DNAH10 GTEx eQTL violin plot](dnah10.png)
 
 | Field | CCDC92 | DNAH10 |
 |---|---|---|
@@ -135,6 +138,8 @@ causal variant in linkage disequilibrium, or genuinely independent
 tissue-specific effects. Given the two visceral adipose eQTLs and strong 
 epigenomic support, COBLL1 is kept as a possible adipose regulatory 
 candidate.
+![COBLL1 adipose visceral eQTL](cobll1_adipose.png)
+![COBLL1 thyroid eQTL](cobll1_thyroid.png)
 
 | Field | Value |
 |---|---|
@@ -165,6 +170,8 @@ nerve could plausibly influence fat distribution through that route. The
 adipose visceral eQTL signal is exceptionally strong but is not captured 
 by the GWAS lead SNP, which suggests it may not independently reach 
 genome-wide significance for the trait.
+![RFLNA nerve tibial eQTL](rflna_nerve.png)
+![RFLNA adipose visceral eQTL](rflna_adipose.png)
 
 | Field | Value |
 |---|---|
@@ -195,6 +202,7 @@ plausible explanation for the weak bulk adipose eQTL is that VEGFA is
 predominantly expressed in a specific cell type within adipose tissue that 
 makes up only a small fraction of the total tissue, diluting any signal 
 beyond detection in GTEx. This was followed up directly in mini-project 3.
+![VEGFA adipose visceral eQTL](vegfa.png)
 
 | Field | Value |
 |---|---|
@@ -229,6 +237,7 @@ ZNF664 sits in the same 12q24.31 cluster as COBLL1, CCDC92, and RFLNA.
 The thyroid-dominant eQTL pattern across multiple genes in this region may 
 partly reflect shared regional chromatin architecture rather than 
 thyroid-specific biology at each gene individually.
+![ZNF664 multi-tissue eQTL](znf644.png)
 
 | Field | Value |
 |---|---|
