@@ -37,7 +37,7 @@ identify the dominant expressing population for each gene. Findings were
 then connected back to the mini-project 2 eQTL verdict for each gene to 
 explain why the bulk signal looked the way it did.
 
-![Cell type UMAP — Emont et al. 2022 adipose atlas](docs/figures/umpa_celltypes.png)
+![Cell type UMAP — Emont et al. 2022 adipose atlas](figures/umpa_celltypes.png)
 
 ---
 
@@ -63,7 +63,7 @@ in this dataset), which explains why the bulk GTEx eQTL for RSPO3 was
 strong and clean. The expressing cell type is abundant enough to 
 dominate the bulk signal.
 
-![RSPO3 expression UMAP](../figures/rspo3_umap.png)
+![RSPO3 expression UMAP](figures/rspo3_umap.png))
 
 | Field | Value |
 |---|---|
@@ -92,7 +92,7 @@ Because both adipocytes and preadipocytes together make up the majority
 of cells in adipose tissue, CCDC92 having pan-adipose lineage expression 
 explains why its bulk eQTL signal was so strong and clean.
 
-![CCDC92 expression UMAP](../figures/ccd92_umap.png)
+![CCDC92 expression UMAP](figures/ccdc92_umap.png)
 
 | Field | Value |
 |---|---|
@@ -124,7 +124,7 @@ VEGFA is named after the cell type it acts in. It encodes vascular
 endothelial growth factor A and drives angiogenesis in endothelial 
 cells. It was never going to show a strong signal in bulk adipose tissue.
 
-![VEGFA expression UMAP](../figures/vegfa_umap.png)
+![VEGFA expression UMAP](figures/vegfa_umap.png)
 
 | Field | Value |
 |---|---|
@@ -165,7 +165,7 @@ may be operating in both tissues via shared transcription factor
 binding, rather than thyroid being the biologically relevant tissue 
 for WHR.
 
-![COBLL1 expression UMAP](../figures/cobll1_umap.png)
+![COBLL1 expression UMAP](figures/cobll1_umap.png)
 
 | Field | Value |
 |---|---|
@@ -191,7 +191,7 @@ This finding directly explains the mini-project 2 result. RFLNA's GWAS
 SNP colocalised with a nerve tibial eQTL rather than an adipose one, 
 and there was an independent strong visceral adipose eQTL 216kb away 
 at a different variant. The visceral-specific signal makes complete 
-sense now — it is not adipocytes driving the visceral eQTL, it is the 
+sense now, it is not adipocytes driving the visceral eQTL, it is the 
 mesothelial lining of the omentum. Mesothelial cells are present in 
 visceral but not subcutaneous adipose, which explains perfectly why 
 any regulatory signal at this locus appeared visceral-specific and 
@@ -203,7 +203,7 @@ nerve cells share cytoskeletal biology, so the same gene being active
 in both tissues reflects shared structural function rather than shared 
 metabolic function.
 
-![RFLNA expression UMAP](../figures/rflna_umap.png)
+![RFLNA expression UMAP](figures/rflna_umap.png)
 
 | Field | Value |
 |---|---|
@@ -231,7 +231,7 @@ The absence of a story is itself the finding it explains why bulk
 GTEx found nothing in adipose despite strong chromatin marks at the 
 SNP position.
 
-![ZNF664 expression UMAP](../figures/znf644_umap.png)
+![ZNF664 expression UMAP](figures/znf664_umap.png)
 
 | Field | Value |
 |---|---|
