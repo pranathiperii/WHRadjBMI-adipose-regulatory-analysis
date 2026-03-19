@@ -1,15 +1,8 @@
 # Computational integration of GWAS, eQTL, and epigenomic data to prioritise regulatory disease loci
 
-**Status:** Ongoing  
-**Trait:** BMI-adjusted waist-hip ratio (WHRadjBMI)  
-**Focus:** Adipose tissue — subcutaneous and visceral  
-
----
-
-## What question am I asking?
 
 Most genetic variants associated with fat distribution lie in non-coding DNA. 
-They don't change proteins — they likely change gene regulation. But which 
+They don't change proteins but they likely change gene regulation. But which 
 gene, in which tissue, in which cell type?
 
 This project builds an evidence chain from GWAS signal → regulatory variant 
