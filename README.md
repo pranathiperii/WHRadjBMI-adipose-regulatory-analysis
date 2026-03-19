@@ -73,7 +73,16 @@ tables/
 figures/
   (GTEx violin plots, CellxGene UMAPs per gene)
 ```
+## Pipeline
 
+An automated Python pipeline integrating all three analysis steps is 
+available as a Jupyter notebook.
+
+[View the pipeline notebook](WHRadjBMI_adipose_pipeline.ipynb)
+
+The notebook can be run interactively in Google Colab:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pranathiperii/WHRadjBMI-adipose-regulatory-analysis/blob/main/WHRadjBMI_adipose_pipeline.ipynb)
 ---
 
 ## What is next
