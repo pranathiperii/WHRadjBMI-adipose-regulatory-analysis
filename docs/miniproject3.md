@@ -37,7 +37,7 @@ identify the dominant expressing population for each gene. Findings were
 then connected back to the mini-project 2 eQTL verdict for each gene to 
 explain why the bulk signal looked the way it did.
 
-![Cell type UMAP — Emont et al. 2022 adipose atlas](../figures/umpa_celltypes.png)
+![Cell type UMAP — Emont et al. 2022 adipose atlas](docs/figures/umpa_celltypes.png)
 
 ---
 
