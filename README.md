@@ -1,25 +1,19 @@
 # Computational integration of GWAS, eQTL, and epigenomic data to prioritise regulatory disease loci
 
 
-Most genetic variants associated with fat distribution lie in non-coding DNA. 
-They don't change proteins but they likely change gene regulation. But which 
-gene, in which tissue, in which cell type?
-
-This project builds an evidence chain from GWAS signal → regulatory variant 
-→ gene expression → cell-type specificity, using only public datasets.
+Honestly, I wanted to see the hype behind GWAS and eQTL. Soo, this project builds an evidence chain from GWAS signal → regulatory variant → gene expression → cell-type specificity, using only public datasets. (Because I am unemployed so not like I have a choice)
 
 ---
 
 ## Project structure
 
-This analysis is organised as three linked mini-projects, each answering 
-the limitation of the one before it.
+I did 3 mini-projects. All associated with each other. Each answering a different limitation. 
 
 | Mini-project | Question | Tools |
 |---|---|---|
-| 1 — GWAS + epigenomics | Where are the signals and do they sit in regulatory DNA? | GWAS Catalog, ENCODE SCREEN, GTEx |
-| 2 — eQTL colocalisation | Are signals mediated by gene expression changes in adipose? | GTEx eQTL, colocalisation logic |
-| 3 — Single-cell resolution | Which cell type within adipose is responsible? | CellxGene, Emont et al. 2022 |
+| 1. GWAS + epigenomics | Where are the signals and do they sit in regulatory DNA? | GWAS Catalog, ENCODE SCREEN, GTEx |
+| 2. eQTL colocalisation | Are signals mediated by gene expression changes in adipose? | GTEx eQTL, colocalisation logic |
+| 3.  Single-cell resolution | Which cell type within adipose is responsible? | CellxGene, Emont et al. 2022 |
 
 ---
 
@@ -58,8 +52,8 @@ and cell-type-specific expression.
 **VEGFA** illustrates the cell-type specificity problem in bulk data. 
  The GWAS signal is extremely strong (p=9×10⁻¹⁴⁰) but the eQTL in adipose is weak and the top eQTL SNP sits over 600kb away from the GWAS lead. The single-cell data explained why. VEGFA is predominantly expressed in endothelial cells, which make up only around 2% of bulk adipose tissue. That small fraction is simply not enough to produce a detectable eQTL signal in bulk GTEx data, which averages across all cell types together.
 
-**RFLNA** is the unexpected finding. 
-Rather than colocalising with an adipose eQTL, the GWAS SNP matched a nerve tibial signal. When looking at single-cell data, RFLNA expression turned out to be concentrated in mesothelial cells, which line the omental fat pad. These cells are present in visceral but not subcutaneous adipose, which neatly explains why any regulatory signal at this locus would appear visceral-specific and why bulk adipose eQTL analysis struggled to capture it.
+**RFLNA** was a fun finding. 
+Rather than colocalising with an adipose eQTL, the GWAS SNP matched a nerve tibial signal. When looking at single-cell data, RFLNA expression turned out to be concentrated in mesothelial cells, which line the omental fat pad. These cells are present in visceral but not subcutaneous adipose, which neatly explains why any regulatory signal at this locus would appear visceral-specific and why bulk adipose eQTL analysis struggled to capture it. Cool right?
 
 ---
 
